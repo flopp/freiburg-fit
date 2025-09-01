@@ -1,0 +1,16 @@
+</main>
+
+<footer class="container">
+    <small>
+        <hr>
+        <a href="{{Base "/datenschutz.html"}}">Datenschutz</a> - <a href="{{Base "/impressum.html"}}">Impressum</a> - <a href="mailto:info@freiburg.fit">info@freiburg.fit</a>
+        <br />Ein privates Projekt von <a href="https://florian-pigorsch.de" target="_blank">Florian Pigorsch</a> - Weitere Projekte: <a href="https://freiburg.run/" target="_blank">Laufkalender für Freiburg</a>, <a href="https://socialrunclubs.de/" target="_blank">Social Run Clubs</a>
+        <br />Letzte Aktualisierung: {{.NowStr}}
+        {{if .IsRemoteTarget}}{{else}}<br />LOCAL BUILD{{end}}
+    </small>
+</footer>
+
+{{range .JSFiles}}<script src="{{Base .}}"></script>{{end}}
+
+</body>
+</html>

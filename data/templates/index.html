@@ -1,0 +1,31 @@
+{{ template "header.html" . }}
+
+<h1>Fitness-Clubs, Studios und Locations in Freiburg</h1>
+
+<p>Auf dieser Seite findest du eine Übersicht aller Fitness-Clubs, Studios und Locations in Freiburg und Umgebung.</p>
+
+
+<div class="grid">
+
+    <article>
+    <header><strong>CrossFit Boxen</strong></header>
+    Hier findest du alle CrossFit Boxen in Freiburg.
+    <footer><a href="{{ Base "category/crossfit" }}">Alle CrossFit Boxen anzeigen</a></footer>
+</article>    
+
+<article>
+    <header><strong>Calisthenics Anlagen</strong></header>
+    Hier findest du alle Outdoor-Calisthenics-Anlagen in Freiburg.
+    <footer><a href="{{ Base "category/calisthenics" }}">Alle Calisthenics Anlagen anzeigen</a></footer>
+</article>
+
+<article>
+    <header><strong>Fehlt was?</strong></header>
+    Du kennst ein Studio oder eine Location, die hier fehlt? Dann schreib mir gerne eine E-Mail an <a href="mailto:info@freiburg.fit">info@freiburg.fit</a>
+</article>
+
+
+</div>
+
+
+{{ template "footer.html" . }}

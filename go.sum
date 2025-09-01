@@ -1,0 +1,9 @@
+github.com/flopp/go-coordsparser v0.0.0-20250311184423-61a7ff62d17c h1:HNRXT/BVRhDaHuFjFQ81mHd+DAmkRJXIELEL05LCDpk=
+github.com/flopp/go-coordsparser v0.0.0-20250311184423-61a7ff62d17c/go.mod h1:7y/2PxXfR1mGtIQFNtFE1daHIka2e8J480Bsm+MiCpk=
+github.com/flopp/go-filehash v0.0.0-20250313113005-e3e8650a2258 h1:BwkqZZzqprz5b+Wp7EKDlukuwOdQxGvYyRTv1yOzC0k=
+github.com/flopp/go-filehash v0.0.0-20250313113005-e3e8650a2258/go.mod h1:6avocwCMVrCHkEhUbuEEDKxjXOtQsXmCzdFclLQ5sUg=
+golang.org/x/text v0.28.0 h1:rhazDwis8INMIwQ4tpjLDzUhx6RlXqZNPEM0huQojng=
+golang.org/x/text v0.28.0/go.mod h1:U8nCwOR8jO/marOQ0QbDiOngZVEBB7MAiitBuMjXiNU=
+gopkg.in/check.v1 v0.0.0-20161208181325-20d25e280405/go.mod h1:Co6ibVJAznAaIkqp8huTwlJQCZ016jof/cbN4VW5Yz0=
+gopkg.in/yaml.v3 v3.0.1 h1:fxVm/GzAzEWqLHuvctI91KS9hhNmmWOoWu0XTYJS7CA=
+gopkg.in/yaml.v3 v3.0.1/go.mod h1:K4uyk7z7BCEPqu6E+C64Yfv1cQ7kz7rIZviUmN+EgEM=

@@ -1,0 +1,39 @@
+{{ template "header.html" . }}
+
+<h1>{{ .Venue.Name }}</h1>
+
+{{if .Venue.Location.Address}}
+<h2>Adresse</h2>
+<p>
+    {{ .Venue.Location.Address }}
+</p>
+{{end}}
+
+{{if .Venue.Location.Coordinates.IsValid}}
+<div id="venue-map" data-name="{{ .Venue.Name }}" data-lat="{{ .Venue.Location.Coordinates.Lat }}" data-lon="{{ .Venue.Location.Coordinates.Lon }}"></div>
+{{end}}
+
+{{if .Venue.Description}}
+<h2>Beschreibung</h2>
+<p>
+    {{ .Venue.Description }}
+</p>
+{{end}}
+
+{{if .Venue.Links}}
+<h2>Links</h2>
+<ul>
+    {{ range .Venue.Links }}
+    <li><a href="{{ .URL }}" target="_blank">{{ .Title }}</a></li>
+    {{ end }}
+</ul>
+{{end}}
+
+<h2>Tags</h2>
+<ul>
+    {{ range .Venue.Tags }}
+    <li>{{ .Name }}</li>
+    {{ end }}
+</ul>
+
+{{ template "footer.html" . }}

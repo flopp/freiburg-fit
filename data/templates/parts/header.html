@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>{{ .Meta.Title }}</title>
+    <meta name="description" content="{{ .Meta.Description }}">
+    <link rel="canonical" href="{{ .Meta.Canonical }}">
+    <link rel="sitemap" type="application/xml" title="Sitemap" href="{{Base "/sitemap.xml"}}">
+    {{range .CssFiles}}<link rel="stylesheet" href="{{Base .}}">
+    {{end}}
+    {{if .IsRemoteTarget}}<script defer src="{{Base .UmamiJS}}" data-website-id="{{.UmamiId}}"></script>{{end}}
+</head>
+<body>
+
+<body>
+    <header>
+        <div class="container">
+            <a href="{{Base "/"}}" style="text-decoration: none;">
+                <b style="font-size: 1.5em; vertical-align: middle;">freiburg.fit</b>
+            </a>
+            <nav>
+            </nav>
+        </div>
+    </header>
+    <main class="container">

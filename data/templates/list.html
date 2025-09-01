@@ -1,0 +1,23 @@
+{{ template "header.html" . }}
+
+<h1>{{ .List.Names }} in Freiburg</h1>
+
+<p>
+    {{ .List.Description }}
+</p>
+
+<h2>Hier ist eine Liste der {{ .List.Names }} in Freiburg:</h2>
+
+<ul>
+    {{ range .List.Venues }}
+    <li><a href="{{ Base .Slug}}" data-name="{{ .Name }}" data-url="{{ Base .Slug }}" {{if .Location.Coordinates.IsValid}}data-lat="{{ .Location.Coordinates.Lat }}" data-lon="{{ .Location.Coordinates.Lon }}"{{end}}>{{ .Name }}</a></li>
+    {{ end }}
+</ul>
+
+<p>
+    Du kennst eine {{ .List.Name }}, die hier fehlt? Dann schreib mir gerne eine E-Mail an <a href="mailto:info@freiburg.fit">info@freiburg.fit</a>
+</p>
+
+<div id="venues-map"></div>
+
+{{ template "footer.html" . }}

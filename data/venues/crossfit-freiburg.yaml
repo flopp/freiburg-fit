@@ -1,0 +1,13 @@
+name: CrossFit Freiburg
+location: 
+  address: Böcklerstraße 3, 79110 Freiburg im Breisgau
+  coordinates: N 48.028936 E 7.809716
+links:
+  - title: Webseite
+    url: https://www.crossfit-fr.de/
+  - title: Instagram
+    url: https://www.instagram.com/crossfit_freiburg
+category: crossfit
+tags:
+  - hansefit
+  - gym

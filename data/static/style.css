@@ -1,0 +1,40 @@
+body>header .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+body>header .container>a {
+    margin: calc(var(--pico-spacing) * -.125) calc(var(--pico-spacing) * -.25);
+    padding: calc(var(--pico-spacing) * .125) calc(var(--pico-spacing) * .25);
+    border-radius: var(--pico-border-radius);
+}
+
+body {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+body>main {
+    flex-grow: 1;
+}
+
+#venue-map {
+    height: 400px;
+    width: 100%;
+}
+
+#venues-map {
+    height: 600px;
+    width: 100%;
+}
+
+.leaflet-container [role=button] {
+    padding: 0px 0px;
+}
+
+.leaflet-marker-pane [role=button] {
+    border: none;
+    background-color: transparent;
+    padding: 0px 0px;
+}
