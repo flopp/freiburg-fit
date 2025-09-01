@@ -10,7 +10,7 @@
 
 <ul>
     {{ range .List.Venues }}
-    <li><a href="{{ Base .Slug}}" data-name="{{ .Name }}" data-url="{{ Base .Slug }}" {{if .Location.Coordinates.IsValid}}data-lat="{{ .Location.Coordinates.Lat }}" data-lon="{{ .Location.Coordinates.Lon }}"{{end}}>{{ .Name }}</a></li>
+    <li><a href="{{ Base .Slug }}" data-name="{{ .Name }}" data-url="{{ Base .Slug }}" {{if .Location.Coordinates.IsValid}}data-lat="{{ .Location.Coordinates.Lat }}" data-lon="{{ .Location.Coordinates.Lon }}"{{end}}>{{ .Name }}</a></li>
     {{ end }}
 </ul>
 

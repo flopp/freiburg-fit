@@ -34,6 +34,9 @@ func loadTemplate(name string, data TemplateData) (*template.Template, error) {
 		"Base": func(p string) string {
 			ifFile := strings.Contains(filepath.Base(p), ".")
 			if data.IsRemoteTarget() {
+				if !strings.HasPrefix(p, "/") {
+					p = "/" + p
+				}
 				if !ifFile && !strings.HasSuffix(p, "/") {
 					return p + "/"
 				}
