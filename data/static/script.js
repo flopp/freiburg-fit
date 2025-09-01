@@ -5,7 +5,7 @@ document.addEventListener('DOMContentLoaded', function() {
         var lat = parseFloat(mapDiv.dataset.lat);
         var lon = parseFloat(mapDiv.dataset.lon);
         var name = mapDiv.dataset.name;
-        var map = L.map('venue-map').setView([lat, lon], 13);
+        var map = L.map('venue-map', {gestureHandling: true}).setView([lat, lon], 13);
         L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
             maxZoom: 18,
             attribution: '© OpenStreetMap contributors'
@@ -35,7 +35,7 @@ document.addEventListener('DOMContentLoaded', function() {
             lls.push([venue.lat, venue.lon]);
         });
         var bounds = L.latLngBounds(lls).pad(0.3);
-        var map = L.map('venues-map').fitBounds(bounds);
+        var map = L.map('venues-map', {gestureHandling: true}).fitBounds(bounds);
         L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
             maxZoom: 18,
             attribution: '© OpenStreetMap contributors'

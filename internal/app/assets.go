@@ -66,6 +66,20 @@ func CopyAssets(config Config) ([]string, []string, error) {
 		return nil, nil, fmt.Errorf("download marker-shadow.png: %w", err)
 	}
 
+	// renovate: datasource=npm depName=leaflet-gesture-handling
+	leafletGestureHandlingVersion := "1.2.2"
+	leafletGestureHandlingUrl := fmt.Sprintf("https://raw.githubusercontent.com/elmarquis/Leaflet.GestureHandling/refs/tags/v%s", leafletGestureHandlingVersion)
+	gestureJs, err := download(leafletGestureHandlingUrl+"/dist/leaflet-gesture-handling.min.js", "static/leaflet-gesture-handling.HASH.js", config)
+	if err != nil {
+		return nil, nil, fmt.Errorf("download leaflet-gesture-handling.min.js: %w", err)
+	}
+	gestureCss, err := download(leafletGestureHandlingUrl+"/dist/leaflet-gesture-handling.min.css", "static/leaflet-gesture-handling.HASH.css", config)
+	if err != nil {
+		return nil, nil, fmt.Errorf("download leaflet-gesture-handling.min.css: %w", err)
+	}
+	jsFiles = append(jsFiles, gestureJs)
+	cssFiles = append(cssFiles, gestureCss)
+
 	// umami
 	umamiJS, err := download("https://cloud.umami.is/script.js", "static/umami.HASH.js", config)
 	if err != nil {
