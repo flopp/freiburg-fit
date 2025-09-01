@@ -143,6 +143,7 @@ func main() {
 			CssFiles: cssFiles,
 			JSFiles:  otherJS,
 			UmamiJS:  umamiJS,
+			UmamiId:  config.UmamiId,
 		}
 		if err := utils.ExecuteTemplate(page.Template, filepath.Join(config.OutputDir, page.OutFile), t); err != nil {
 			log.Fatalf("rendering template %s: %w", page.Template, err)
@@ -169,6 +170,7 @@ func main() {
 			CssFiles: cssFiles,
 			JSFiles:  otherJS,
 			UmamiJS:  umamiJS,
+			UmamiId:  config.UmamiId,
 		}
 
 		target := fmt.Sprintf("%s/%s/index.html", config.OutputDir, venue.Slug())
@@ -197,6 +199,7 @@ func main() {
 			CssFiles: cssFiles,
 			JSFiles:  otherJS,
 			UmamiJS:  umamiJS,
+			UmamiId:  config.UmamiId,
 		}
 
 		target := fmt.Sprintf("%s/%s/index.html", config.OutputDir, category.Slug())
@@ -226,6 +229,7 @@ func main() {
 				CssFiles: cssFiles,
 				JSFiles:  otherJS,
 				UmamiJS:  umamiJS,
+				UmamiId:  config.UmamiId,
 			}
 
 			target := fmt.Sprintf("%s/%s/index.html", config.OutputDir, tag.Slug())
