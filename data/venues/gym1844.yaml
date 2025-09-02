@@ -1,0 +1,15 @@
+name: gym1844 - das FT-Fitnessstudio
+location: 
+  address: Schwarzwaldstrasse 181, 79117 Freiburg
+  coordinates: N 47.990225 E 7.885133
+description: Die hellen und großen Räume bieten vielfältige Trainingsmöglichkeiten und schaffen eine inspirierende Atmosphäre für alle Fitnessbegeisterten aller Levels. Auf der großen Trainingsfläche finden sich eine Vielzahl an Kraft- und Cardiogeräten, innovativen Five-Geräten sowie smarte Krafttrainingsgeräte von EGYM. Ein großzügiger Freihantelbereich ergänzt das Angebot.
+links:
+  - title: Webseite
+    url: hhttps://ft1844-freiburg.de/gym
+  - title: Instagram
+    url: https://www.instagram.com/ft1844freiburg/
+  - title: Google Maps
+    url: https://maps.app.goo.gl/HFy13H78HrYGeL1G8
+category: fitnessstudio
+tags:
+  - gym
