@@ -1,0 +1,12 @@
+name: Gym52
+location: 
+  address: Karlsruher Straße 52, 79108 Freiburg
+  coordinates: N 48.018960 E 7.852639
+links:
+  - title: Webseite
+    url: https://gym52.de/
+  - title: Instagram
+    url: https://www.instagram.com/gym52_freiburg/
+category: fitnessstudio
+tags:
+  - gym

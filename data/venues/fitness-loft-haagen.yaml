@@ -1,0 +1,12 @@
+name: Fitness Loft Haagen
+location:
+  address: Beim Haagensteg 5, 79541 Lörrach
+  coordinates: N 47.631487 E 7.679347
+  description: >
+    Das Fitness Loft Haagen bietet vielfältige Trainingsmöglichkeiten wie Zirkeltraining, Gruppenkurse sowie Kraft- und Cardiotraining. Moderne Duschen und eine angenehme Atmosphäre machen das Fitnessstudio zur idealen Wahl für Fitnessbegeisterte in Lörrach.
+links:
+  - title: Webseite
+    url: https://www.fitness-lofts.de/studios/haagen
+category: fitnessstudio
+tags:
+  - gym

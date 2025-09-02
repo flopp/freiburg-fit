@@ -1,0 +1,10 @@
+name: Fitness First Freiburg
+location: 
+  address: Auf der Zinnen 1, 79098 Freiburg
+  coordinates: N 47.997486 E 7.854063
+links:
+  - title: Webseite
+    url: https://www.fitnessfirst.de/clubs/freiburg
+category: fitnessstudio
+tags:
+  - gym

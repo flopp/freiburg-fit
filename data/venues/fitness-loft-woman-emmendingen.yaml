@@ -1,0 +1,11 @@
+name: Fitness Loft Woman Emmendingen
+location:
+  address: Freiburger Straße 4, 79312 Emmendingen
+  coordinates: N 48.118707 E 7.851724
+description: Das Fitness Loft Woman Emmendingen ist ein Fitnessstudio speziell für Frauen und bietet eine Vielzahl an Trainingsmöglichkeiten wie Zirkeltraining, Gruppenkurse, Kraft- und Cardiotraining. Zur Ausstattung gehören außerdem ein Solarium und Duschen.
+links:
+  - title: Webseite
+    url: https://www.fitness-lofts.de/studios/woman-emmendingen
+category: fitnessstudio
+tags:
+  - gym

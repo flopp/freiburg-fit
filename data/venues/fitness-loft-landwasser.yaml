@@ -1,0 +1,12 @@
+name: Fitness Loft Landwasser
+location:
+  address: Auwaldstraße 90, 79110 Freiburg
+  coordinates: N 48.023721 E 7.810017
+  description: >
+    Das Fitness Loft Landwasser bietet eine moderne Trainingsumgebung mit vielfältigen Möglichkeiten wie Zirkeltraining, Gruppenkursen, Duschen sowie Kraft- und Cardiotraining. Das Studio eignet sich ideal für alle, die Wert auf ein umfassendes Fitnessangebot legen.
+links:
+  - title: Webseite
+    url: https://www.fitness-lofts.de/studios/landwasser
+category: fitnessstudio
+tags:
+  - gym

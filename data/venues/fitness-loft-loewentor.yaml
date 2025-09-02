@@ -1,0 +1,12 @@
+name: Fitness Loft Löwentor
+location:
+  address: Marktplatz 9, 79312 Emmendingen
+  coordinates: N 48.120785 E 7.850425
+  description: >
+    Das Fitness Loft Löwentor bietet ein modernes Fitnessstudio-Erlebnis mit umfangreichen Möglichkeiten für Kraft- und Cardiotraining. Neben einem gut ausgestatteten Gym stehen Zirkeltraining und Duschen zur Verfügung, sodass für jedes Trainingsziel die passenden Angebote vorhanden sind.
+links:
+  - title: Webseite
+    url: https://www.fitness-lofts.de/studios/lowentor
+category: fitnessstudio
+tags:
+  - gym

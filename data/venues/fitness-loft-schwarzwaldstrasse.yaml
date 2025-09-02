@@ -1,0 +1,12 @@
+name: Fitness Loft Schwarzwaldstraße
+location:
+  address: Schwarzwaldstraße 9, 79117 Freiburg
+  coordinates: N 47.990463 E 7.855846
+  description: >
+    Das Fitness Loft Schwarzwaldstraße ist ein modernes Fitnessstudio in Freiburg, das vielfältige Möglichkeiten für Kraft- und Cardiotraining bietet. Hier finden Fitnessbegeisterte eine professionelle Umgebung für ihr Training.
+links:
+  - title: Webseite
+    url: https://www.fitness-lofts.de/studios/schwarzwaldstrasse
+category: fitnessstudio
+tags:
+  - gym

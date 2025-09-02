@@ -1,0 +1,12 @@
+name: Fitness Gym Freiburg
+location: 
+  address: Oltmannsstraße 1, 79100 Freiburg
+  coordinates: N 47.979374 E 7.830531
+links:
+  - title: Webseite
+    url: https://www.fitnessgym.de/
+  - title: Instagram
+    url: https://www.instagram.com/fitnessgym_freiburg
+category: fitnessstudio
+tags:
+  - gym

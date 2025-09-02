@@ -1,0 +1,12 @@
+name: Fitness Loft Lörrach
+location:
+  address: Weiler Straße 7, 79540 Lörrach
+  coordinates: N 47.602550 E 7.655830
+description: >
+    Das Fitness Loft Lörrach bietet ein modernes Fitnessstudio mit vielfältigen Trainingsmöglichkeiten. Hier erwarten dich Zirkeltraining, Gruppenkurse, Kraft- und Cardiotraining sowie entspannende Angebote wie Solarium, Sauna und Duschen.
+links:
+  - title: Webseite
+    url: https://www.fitness-lofts.de/studios/lorrach
+category: fitnessstudio
+tags:
+  - gym

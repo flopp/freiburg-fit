@@ -1,0 +1,11 @@
+name: Fitness Loft Weil am Rhein
+location:
+  address: In der Dreiländergalerie, Europaplatz 1, 79576 Weil am Rhein
+  coordinates: N 47.592742 E 7.609513
+  description: Das Fitness Loft Weil am Rhein bietet ein modernes Fitnessstudio-Erlebnis mit vielfältigen Trainingsmöglichkeiten. Zu den Angeboten zählen Zirkeltraining, Gruppenkurse, Solarium, Sauna, Duschen sowie Kraft- und Cardiotraining. Hier finden Fitnessbegeisterte alles für ein ganzheitliches Workout.
+links:
+  - title: Webseite
+    url: https://www.fitness-lofts.de/studios/weil-am-rhein
+category: fitnessstudio
+tags:
+  - gym

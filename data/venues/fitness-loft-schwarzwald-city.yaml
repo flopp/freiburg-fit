@@ -1,0 +1,12 @@
+name: Fitness Loft Schwarzwald city
+location:
+  address: Schiffstraße 5, 79098 Freiburg im Breisgau
+  coordinates: N 47.997033 E 7.851096
+  description: >
+    Das Fitness Loft Schwarzwald city ist ein modernes Fitnessstudio in Freiburg, das vielfältige Trainingsmöglichkeiten bietet. Hier erwarten dich Gruppenkurse, Kraft- und Cardiotraining sowie komfortable Duschen für ein rundum gelungenes Workout-Erlebnis.
+links:
+  - title: Webseite
+    url: https://www.fitness-lofts.de/studios/schwarzwaldcity
+category: fitnessstudio
+tags:
+  - gym

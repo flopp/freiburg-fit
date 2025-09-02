@@ -1,0 +1,11 @@
+name: Fitness Loft Woman Freiburg
+location:
+  address: Mooswaldallee 4, 79108 Freiburg
+  coordinates: N 48.034503 E 7.857962
+description: Das Fitness Loft Woman Freiburg ist ein Fitnessstudio speziell für Frauen und bietet Zirkeltraining, Gruppenkurse, Sauna, Duschen sowie Kraft- und Cardiotraining.
+links:
+  - title: Webseite
+    url: https://www.fitness-lofts.de/studios/woman-freiburg
+category: fitnessstudio
+tags:
+  - gym

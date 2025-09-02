@@ -1,0 +1,11 @@
+name: Fitness Loft Gundelfingen Süd
+location:
+  address: Alte Bundesstraße 1, 79194 Gundelfingen
+  coordinates: N 48.036215 E 7.863673
+description: "Das Fitness Loft Gundelfingen Süd bietet Sauna, Solarium, Duschen und Kraft- und Cardiotraining."
+links:
+  - title: Webseite
+    url: https://www.fitness-lofts.de/studios/gundelfingen-sud
+category: fitnessstudio
+tags:
+  - gym

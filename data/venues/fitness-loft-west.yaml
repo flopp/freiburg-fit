@@ -1,0 +1,11 @@
+name: Fitness Loft West
+location:
+  address: Breisacher Straße 151, 79110 Freiburg
+  coordinates: N 48.006982 E 7.827923
+  description: Das Fitness Loft West ist ein modernes Fitnessstudio in Freiburg, das vielfältige Trainingsmöglichkeiten bietet. Zu den Angeboten zählen ein gut ausgestatteter Gym-Bereich, Zirkeltraining, Gruppenkurse, Solarium, Sauna sowie Duschen. Kraft- und Cardiotraining stehen ebenfalls zur Verfügung und sorgen für ein umfassendes Fitnesserlebnis.
+links:
+  - title: Webseite
+    url: https://www.fitness-lofts.de/studios/west
+category: fitnessstudio
+tags:
+  - gym

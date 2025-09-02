@@ -1,0 +1,11 @@
+name: Fitness Loft Gundelfingen Nord
+location:
+  address: Industriestraße 61, 79194 Gundelfingen
+  coordinates: N 48.048977 E 7.859237
+description: "Das Fitness Loft Gundelfingen Nord bietet Zirkeltraining, Gruppenkurse, Duschen und Kraft- und Cardiotraining."
+links:
+  - title: Webseite
+    url: https://www.fitness-lofts.de/studios/gundelfingen-nord
+category: fitnessstudio
+tags:
+  - gym

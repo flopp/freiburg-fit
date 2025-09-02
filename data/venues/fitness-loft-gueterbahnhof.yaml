@@ -1,0 +1,11 @@
+name: Fitness Loft Güterbahnhof
+location:
+  address: Zollhallenstraße 8, 79106 Freiburg
+  coordinates: N 48.011785 E 7.848034
+description: "Das Fitness Loft Güterbahnhof bietet Outdoor Training, Duschen und Kraft- und Cardiotraining."
+links:
+  - title: Webseite
+    url: https://www.fitness-lofts.de/studios/guterbahnhof
+category: fitnessstudio
+tags:
+  - gym

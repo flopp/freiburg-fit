@@ -1,0 +1,11 @@
+name: Fitness Loft Denzlingen
+location:
+  address: Markgrafenstraße 125/12, 79211 Denzlingen
+  coordinates: N 48.067440 E 7.867952
+description: "Das Fitness Loft Denzlingen ist ein modernes Fitnessstudio mit Zirkeltraining, Solarium, Duschen und Kraft- und Cardiotraining."
+links:
+  - title: Webseite
+    url: https://www.fitness-lofts.de/studios/denzlingen
+category: fitnessstudio
+tags:
+  - gym

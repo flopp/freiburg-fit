@@ -1,0 +1,12 @@
+name: Fitness Loft Haid
+location:
+  address: Waltershofener Straße 2, 79111 Freiburg
+  coordinates: N 47.994574 E 7.792972
+  description: >
+    Das Fitness Loft Haid bietet eine moderne Ausstattung für Kraft- und Cardiotraining, Zirkeltraining sowie vielfältige Gruppenkurse. Zusätzlich stehen Sauna und Duschen zur Verfügung. Das Studio eignet sich ideal für alle, die Wert auf ein umfassendes Fitnessangebot legen.
+links:
+  - title: Webseite
+    url: https://www.fitness-lofts.de/studios/haid
+category: fitnessstudio
+tags:
+  - gym

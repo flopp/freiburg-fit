@@ -1,0 +1,12 @@
+name: Fitness Loft Offenburg
+location:
+  address: Im Rée Carré, Gustav-Ree-Anlage 2, 77652 Offenburg
+  coordinates: N 48.472360 E 7.944952
+  description: >
+    Das Fitness Loft Offenburg bietet eine moderne Trainingsumgebung mit vielfältigen Angeboten wie Zirkeltraining, Gruppenkursen, Solarium, Sauna sowie Kraft- und Cardiotraining. Duschen stehen ebenfalls zur Verfügung. Das Studio eignet sich ideal für alle, die Wert auf ein umfassendes Fitnesserlebnis legen.
+links:
+  - title: Webseite
+    url: https://www.fitness-lofts.de/studios/offenburg
+category: fitnessstudio
+tags:
+  - gym
