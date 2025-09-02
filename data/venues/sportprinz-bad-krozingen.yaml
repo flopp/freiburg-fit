@@ -1,0 +1,13 @@
+name: Sportprinz Bad Krozingen
+location: 
+  address: Bahnhofstraße 5, 79189 Bad Krozingen
+  coordinates: N 47.919613 E 7.698630
+description: Das Sportprinz Bad Krozingen bietet ein vielfältiges Kursangebot, professionelle Trainingsbetreuung sowie eine moderne Functional Area. Für Entspannung sorgen die Sauna und die Ruhezone.
+links:
+  - title: Webseite
+    url: https://www.sportprinz-fitness.de/clubs/bad-krozingen/
+  - title: Google Maps
+    url: https://maps.app.goo.gl/T67ygB1san6zHpxJ9
+category: fitnessstudio
+tags:
+  - gym

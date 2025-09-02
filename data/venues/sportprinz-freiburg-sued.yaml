@@ -1,0 +1,13 @@
+name: Sportprinz Freiburg Süd
+location: 
+  address: Basler Straße 113, 79115 Freiburg
+  coordinates: N 47.984895 E 7.819268
+description: Sportprinz Freiburg Süd bietet ein vielfältiges Kursangebot, professionelle Trainingsbetreuung und eine großzügige Functional Area. Ein separater Frauenbereich sowie Sauna und Ruhezone sorgen für ein angenehmes und entspanntes Trainingsumfeld.
+links:
+  - title: Webseite
+    url: https://www.sportprinz-fitness.de/clubs/freiburg-sued/
+  - title: Google Maps
+    url: https://maps.app.goo.gl/s4M782fnZVodbX2C7
+category: fitnessstudio
+tags:
+  - gym

@@ -1,0 +1,13 @@
+name: Sportprinz Freiburg West
+location: 
+  address: Ensisheimer Straße 8, 79110 Freiburg
+  coordinates: N 48.009984 E 7.827909
+description: Vielfältiges Kursangebot, professionelle Trainingsbetreuung, große Functional Area, separater Frauenbereich, Sauna & Ruhezone sowie Solarium bieten optimale Trainings- und Erholungsmöglichkeiten.
+links:
+  - title: Webseite
+    url: https://www.sportprinz-fitness.de/clubs/freiburg-west/
+  - title: Google Maps
+    url: https://maps.app.goo.gl/dAZWkrgHC2VhwG57A
+category: fitnessstudio
+tags:
+  - gym
