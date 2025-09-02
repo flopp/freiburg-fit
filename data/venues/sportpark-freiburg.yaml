@@ -1,0 +1,13 @@
+name: Sportpark Freiburg
+location: 
+  address: Ensisheimer Str. 5, 79110 Freiburg im Breisgau
+  coordinates: N 48.009690 E 7.825092
+description: Der Sportpark Freiburg bietet über 100 Kurse, eine Getränkeanlage mit Bio-Saft, professionelle Trainingsbetreuung und chipkartengesteuertes Training. Die große Functional Area, Volleyball- und Multicourt, sowie eine Sauna- und Wellnesslandschaft inklusive Damensauna runden das Angebot ab.
+links:
+  - title: Webseite
+    url: https://www.sportpark-fitness.de/clubs/freiburg/
+  - title: Google Maps
+    url: https://maps.app.goo.gl/9AFNnzx6141rbF6Q7
+category: fitnessstudio
+tags:
+  - gym

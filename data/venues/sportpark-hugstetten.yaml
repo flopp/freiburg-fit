@@ -1,0 +1,13 @@
+name: Sportpark Hugstetten
+location: 
+  address: Benzstraße 22, 79232 March
+  coordinates: N 48.043269 E 7.789718
+  description: Der Sportpark Hugstetten bietet Gruppen-Kurse, eine Getränkeanlage mit Bio-Saft, professionelle Trainingsbetreuung und chipkartengesteuertes Training. Zur Ausstattung gehören eine moderne Functional Area, Tennisplatz, Badminton-Halle sowie eine großzügige Sauna- und Wellnesslandschaft.
+links:
+  - title: Webseite
+    url: https://www.sportpark-fitness.de/clubs/hugstetten/
+  - title: Google Maps
+    url: https://maps.app.goo.gl/usVYZVQuVd28gUF38
+category: fitnessstudio
+tags:
+  - gym

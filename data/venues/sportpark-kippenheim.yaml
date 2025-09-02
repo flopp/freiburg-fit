@@ -1,0 +1,13 @@
+name: Sportpark Kippenheim
+location: 
+  address: Keltenstraße 5, 77971 Kippenheim
+  coordinates: N 48.009690 E 7.825092
+  description: Der Sportpark Kippenheim bietet Gruppen-Kurse, eine Getränkeanlage mit Bio-Saft, professionelle Trainingsbetreuung und chipkartengesteuertes Training. Die moderne Functional Area sowie eine großzügige Sauna- und Wellnesslandschaft mit zwei Saunen und einem Dampfbad sorgen für ein umfassendes Fitness- und Entspannungsangebot.
+links:
+  - title: Webseite
+    url: https://www.sportpark-fitness.de/clubs/kippenheim/
+  - title: Google Maps
+    url: https://maps.app.goo.gl/bN9JFLzxfgK6NeTL8
+category: fitnessstudio
+tags:
+  - gym
