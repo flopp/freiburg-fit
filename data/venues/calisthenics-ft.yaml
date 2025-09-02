@@ -1,0 +1,12 @@
+name: Calisthenics-Anlage FT 1844
+location: 
+  address: FT-Gelände, Schwarzwaldstrasse 181, 79117 Freiburg
+  coordinates: N 47.991239 E 7.884858
+description: Kostenlose Calisthenics-Anlage auf dem Gelände der Freiburger Turnerschaft 1844 e.V. (FT 1844). Zugang nur während der Öffnungszeiten des Vereins.
+links:
+  - title: "Webseite"
+    url: "https://ft1844-freiburg.de/calisthenics"
+category: calisthenics
+tags:
+  - kostenlos
+  - outdoor
