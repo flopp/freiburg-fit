@@ -127,5 +127,9 @@ func CopyAssets(config Config) ([]string, []string, error) {
 		return nil, nil, fmt.Errorf("copy static file %s: %w", "data/static/logo.svg", err)
 	}
 
+	if err := utils.CopyFile("data/static/robots.txt", filepath.Join(config.OutputDir, "robots.txt")); err != nil {
+		return nil, nil, fmt.Errorf("copy static file %s: %w", "data/static/robots.txt", err)
+	}
+
 	return cssFiles, jsFiles, nil
 }

@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://freiburg.fit/sitemap.xml
