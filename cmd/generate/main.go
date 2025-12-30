@@ -60,6 +60,7 @@ func main() {
 	// Set the current time
 	now := time.Now()
 	nowStr := now.Format("2006-01-02 15:04:05")
+	todayStr := now.Format("2006-01-02")
 
 	// copy static files to output directory
 	cssFiles, jsFiles, err := app.CopyAssets(config)
@@ -248,6 +249,7 @@ func main() {
 	for _, url := range sitemapUrls {
 		sitemapData = append(sitemapData, []byte("  <url>\n")...)
 		sitemapData = append(sitemapData, []byte(fmt.Sprintf("    <loc>%s</loc>\n", url))...)
+		sitemapData = append(sitemapData, []byte(fmt.Sprintf("    <lastmod>%s</lastmod>\n", todayStr))...)
 		sitemapData = append(sitemapData, []byte("  </url>\n")...)
 	}
 	sitemapData = append(sitemapData, []byte("</urlset>\n")...)
