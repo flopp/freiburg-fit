@@ -131,5 +131,9 @@ func CopyAssets(config Config) ([]string, []string, error) {
 		return nil, nil, fmt.Errorf("copy static file %s: %w", "data/static/robots.txt", err)
 	}
 
+	if err := utils.CopyFile("data/static/htaccess", filepath.Join(config.OutputDir, ".htaccess")); err != nil {
+		return nil, nil, fmt.Errorf("copy static file %s: %w", "data/static/htaccess", err)
+	}
+
 	return cssFiles, jsFiles, nil
 }
