@@ -1,0 +1,3 @@
+RewriteEngine On
+RewriteCond %{HTTP_HOST} !^freiburg.fit$ [NC]
+RewriteRule ^(.*)$ http://freiburg.fit/$1 [L,R=301]
