@@ -8,6 +8,7 @@ import (
 	"os"
 	"path/filepath"
 	"sort"
+	"strings"
 
 	"github.com/flopp/freiburg-fit/internal/utils"
 	"gopkg.in/yaml.v3"
@@ -74,6 +75,12 @@ func (d *Data) LoadCategory(yamlFileName string) error {
 	return nil
 }
 
+func htmlize(s string) template.HTML {
+	// replace line breaks with <br>
+	s = strings.ReplaceAll(s, "\n", "<br>")
+	return template.HTML(s)
+}
+
 func (d *Data) LoadVenue(yamlFileName string) error {
 	type venueData struct {
 		Name     string
@@ -81,7 +88,7 @@ func (d *Data) LoadVenue(yamlFileName string) error {
 			Address     string
 			Coordinates string
 		}
-		Description template.HTML
+		Description string
 		Links       []struct {
 			Title string
 			URL   string
@@ -104,7 +111,7 @@ func (d *Data) LoadVenue(yamlFileName string) error {
 
 	venue := &Venue{
 		Name:        vd.Name,
-		Description: vd.Description,
+		Description: htmlize(vd.Description),
 		Links:       vd.Links,
 	}
 	d.Venues = append(d.Venues, venue)
