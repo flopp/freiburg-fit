@@ -1,0 +1,35 @@
+name: SVKfit
+location: 
+  address: Oberrieder Straße 3, 79199 Kirchzarten
+  coordinates: N 47.958846 E 7.955208
+description:
+  Deine Fitness-Oase im Verein – modern, persönlich und mit Expert:innen an deiner Seite.
+  Gemeinsam trainieren, regenerieren und nach dem Training beim FitDrink zusammensitzen.
+
+  Große Fitnessfläche mit modernen Geräten für dein individuelles und gerätegestütztes Gesundheits- & Fitnesstraining
+  Vielfältige Kursangebote in vereinseigenen Kursräumen – aktiv, abwechslungsreich, miteinander
+  Entspannende Sauna – Regenerieren und Wärme genießen mit sagenhaftem Schwarzwaldblick und Dachterrasse
+  Vereinsatmosphäre mit Mehrwert – Trainieren, in Kontakt kommen, entspannen und fit bleiben in deinem Sportverein Kirchzarten
+
+  Vielfältige, moderne
+  Trainingsgeräte
+  Funktionelle Trainingsfläche
+  Kraft-Ausdauer-Zirkel
+  Cardiobereich
+  Freihantel-Area
+  Multifunktionstower
+  Beweglichkeitstraining
+  Verschiedene Kleingeräte
+  Seilzüge
+  Umfassende Einweisung
+  Persönliche Begleitung
+links:
+  - title: Webseite
+    url: https://svkirchzarten.de/svkfit/
+  - title: Instagram
+    url: https://www.instagram.com/sportvereinkirchzarten/
+  - title: Google Maps
+    url: https://maps.app.goo.gl/J5ih6KTi9B2ztucp9
+category: fitnessstudio
+tags:
+  - gym
